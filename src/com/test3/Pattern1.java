@@ -1,0 +1,27 @@
+package com.test3;
+
+public class Pattern1 {
+
+	public static void main(String[] args) {
+		/*4.	Pattern
+                  1
+                  21
+                  321
+                  4321
+                  54321   */
+		
+		
+		for(int i=1;i<=5;i++) {
+			for(int j=i;j>=1;j--) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+		
+		
+			
+		
+		}
+	}
+
+
